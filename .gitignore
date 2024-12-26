@@ -1,0 +1,54 @@
+# Go build artifacts
+/bin/
+/obj/
+/out/
+
+# Go workspace
+/go/
+
+# Dependency directories
+/vendor/
+
+# Test binary, built with `go test`
+*.test
+
+# Go coverage reports
+*.cov
+*.coverage
+
+# IDE or editor folders
+.vscode/
+/.idea/
+
+# Go-specific IDE files
+*.swp
+*.swo
+*.sublime-workspace
+
+# Dependency cache
+/pkg/
+
+# Build output
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.a
+*.out
+
+# Go modules
+go.sum
+go.mod
+
+# Node.js modules (if you're using Go with frontend tools)
+node_modules/
+
+# Mac system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Other temporary files
+*.log
